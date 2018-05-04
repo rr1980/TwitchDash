@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main1", "Main1\Main1.csproj", "{5A405F30-036F-4319-80D9-096B78E4A396}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchDash.Core", "TwitchDash.Core\TwitchDash.Core.csproj", "{46405BD0-4657-4297-86A9-6F054A4C4686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchDash.Common", "TwitchDash.Common\TwitchDash.Common.csproj", "{D04A0B62-EC86-42BC-8D35-10EF2DD6E097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchDash.Models", "TwitchDash.Models\TwitchDash.Models.csproj", "{43A80709-BDD5-4F19-9158-94B709E579AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{5A405F30-036F-4319-80D9-096B78E4A396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A405F30-036F-4319-80D9-096B78E4A396}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A405F30-036F-4319-80D9-096B78E4A396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46405BD0-4657-4297-86A9-6F054A4C4686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46405BD0-4657-4297-86A9-6F054A4C4686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46405BD0-4657-4297-86A9-6F054A4C4686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46405BD0-4657-4297-86A9-6F054A4C4686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04A0B62-EC86-42BC-8D35-10EF2DD6E097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04A0B62-EC86-42BC-8D35-10EF2DD6E097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04A0B62-EC86-42BC-8D35-10EF2DD6E097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04A0B62-EC86-42BC-8D35-10EF2DD6E097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A80709-BDD5-4F19-9158-94B709E579AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A80709-BDD5-4F19-9158-94B709E579AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A80709-BDD5-4F19-9158-94B709E579AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A80709-BDD5-4F19-9158-94B709E579AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
