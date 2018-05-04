@@ -1,4 +1,5 @@
 ﻿using System;
+using TwitchDash.Core;
 
 namespace Main1
 {
@@ -6,7 +7,13 @@ namespace Main1
     {
         static void Main(string[] args)
         {
+            TwitchStarter ts = new TwitchStarter();
+
+            ts.Start();
+
             Console.WriteLine("Hello World!");
+            Console.ReadLine();
+
         }
     }
 }
